@@ -1,4 +1,4 @@
-#  DailyDialog Chatbot (Seq2Seq with Attention)
+# DailyDialog Chatbot (Seq2Seq with Attention)
 
 This project implements a sequence-to-sequence (Seq2Seq) chatbot using PyTorch, trained on the [DailyDialog dataset](https://huggingface.co/datasets/daily_dialog). The architecture combines an LSTM encoder-decoder with Bahdanau attention, pretrained GloVe embeddings, scheduled teacher forcing, and beam search decoding.
 
@@ -6,7 +6,7 @@ This project implements a sequence-to-sequence (Seq2Seq) chatbot using PyTorch, 
 
 ---
 
-##  Features
+## Features
 
 - Bi-directional LSTM Encoder (2 layers)
 - Unidirectional LSTM Decoder with Attention
@@ -31,3 +31,4 @@ This project implements a sequence-to-sequence (Seq2Seq) chatbot using PyTorch, 
 [Hidden State Projection]        │
      │                           ▼
 [Unidirectional LSTM Decoder] ──► Beam Search Output
+```
